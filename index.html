@@ -1,0 +1,112 @@
+<html>
+    <head>
+    </head>
+<body><center>
+    <h1 style="background-color:rgb(156, 156, 227)" width="100px"> GENERAL BUS PASS APPLICATON</h1></center>
+    <fieldset>
+        <legend style="background-color:rgb(156, 156, 227)" width="100px">Applicant Details</legend>
+<label for="Name">Name</label>
+<input type="text" id="username" placeholder="enter applicant name">
+<label for ="fathers Name">fathers Name</label>
+<input type="text" id="fathers name" placeholder="fathers name"><br><br>
+<label for="DOB">Date Of Birth</label>
+<input type="Date" id="DOB" name="dob">
+<label for="gender">Gender</label>
+<input type="radio" name="Gender" value="male">male
+<input type="radio"name="Gender" value="female">female<br>
+<br><label for="Age as on">Age as on</label>
+<input type="checkbox">years
+<input type="checkbox">months
+<input type="checkbox">days
+<label for="Aadhaar No:">Aadhar no:</label>
+<input type="text" id="username" placeholder="enter aadhaar no." required><br><br>
+
+<label for="Mobile .No">Mobile No</label>
+<input type="text" id=>
+<label for="E-mail id">E-mail id</label>
+<input type="email"  required>
+<br><br>
+<label for="Photo">Photo</label>
+ <input type="file" id="choose filed" required>
+</fieldset><br>
+<fieldset>
+<legend style="background-color:rgb(176, 186, 238)" width="100px">Residentional Address Details</legend>
+<label for="Applicant Address">Applicant Address</label>
+<textarea name="applicant" id="user"></textarea>
+<label for="District">District </label>
+
+<select name="city" id="city">Distict
+<option hidden> select</option>
+    <option value="hyderabd">hyderabad</option>
+    <option value="warangal">warangal</option>
+    <option value="hanamkonda">hanamkonda</option>
+    <option value="godavarikani">godavarikani</option>
+    <option value="madhannapet">madhannapet</option>
+    <option value="madhannapet">lenkalaplly</option>
+    <option value="etunagaram">etunagaram</option>
+</select><br><br>
+
+<label for="Mandal">Mandal</label>
+<select name="mandal" id="mandal">
+<option hidden>select</option>
+<option value="kamalapur">kamalpur</option>
+<option value="regonda">regonda</option>
+<option value="gudur">gudur</option>
+<option value="iloni">iloni</option>
+<option value="etunagaram">etunagaram</option></select>
+
+<label for="Village">Village</label>
+<select name="village">village
+<option hidden>select</option>
+<option value="madhannapet">madhannapet</option>
+<option value="regonda">regonda</option>
+<option value="lenkalapally">lenkalapally</option>
+<option value="etunagaram">etunagaram</option>
+<option value="vangapahad">vangapahad</option></select><br><br>
+<label for="Pincode">Pincode</label>
+<input type="integer" required>
+</fieldset><br>
+<fieldset>
+    <legend style="background-color:rgb(156, 156, 227)" width="100px"> Pass Type Details </legend>
+    <label for="city">city</label>
+    <select name="city" id="city">
+    <option hidden>---select---</option>
+    <option value="kamalapur">kamalpur</option>
+    <option value="regonda">regonda</option>
+    <option value="gudur">gudur</option>
+    <option value="iloni">iloni</option>
+    <option value="etunagaram">etunagaram</option></select><br><br>
+    <label for="Pass Type">Pass type</label>
+    <select name="pass type">
+    <option hidden>select</option>
+    <option value="General ">General Pass</option>
+    <option value="Route">Route pass</option>
+    <option value="Day">Day</option></select>
+
+</fieldset><br>
+<fieldset>
+    <legend style="background-color:rgb(156, 156, 227)" width="100px">Mode of payment & Pass collection</legend>
+    <label for="Payment Mode" placeholder="select payment method">Payment Mode</label>
+<select mode="select payment method">
+    <option hidden>select payment method</option>
+<option value="UPI">UPI</option>
+<option value="CASH">CASH</option></select><br><br>
+<label for="Pass Delivery Mode">Pass Delivery Mode</label>
+<select mode="select pass delivery mode">
+    <option hidden>select pass delivery mode</option>
+    <option value="online">delivery to your place</option>
+    <option value="offline">In busstand</option></select><br><br>
+    <label for="name"> center at which you want to collect pass</label>
+    <select mode="collect pass">
+        <option hidden>----select----</option>
+        <option value="kamalapur">kamalpur</option>
+        <option value="regonda">regonda</option>
+        <option value="gudur">gudur</option>
+        <option value="iloni">iloni</option>
+        <option value="etunagaram">etunagaram</option>
+
+    </select>
+</fieldset><br>
+<input type="submit">
+</body>
+    </html>
